@@ -9,6 +9,13 @@ public class MainActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
+		try {
+			CryptoCustom custom = new CryptoCustom();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	}
