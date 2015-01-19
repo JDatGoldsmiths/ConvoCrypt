@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">ConvoCrypt</string>
-    <string name="hello_world">Hello world! Hi Jessica did this work?</string>
+    <string name="hello_world">Hi Group. This was changed on Jan 19</string>
     <string name="action_settings">Settings</string>
 
 </resources>
